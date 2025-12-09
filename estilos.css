@@ -1,0 +1,162 @@
+.miNavbar{
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(17.5px);
+-webkit-backdrop-filter: blur(17.5px);
+border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; /* espacio entre columnas */
+    align-items: start;
+    margin: 0; 
+    margin-top: 100px;
+    padding: 0; 
+}
+
+.tituloBanner{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 60px;
+}
+
+.cta{
+    background-color: #101111;
+    color: rgb(255, 230, 0);
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 50px;
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 15px;
+}
+
+.cta h2{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.carouselSlide{
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.videoLanzamiento{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.videoLanzamiento iframe {
+    width: 100%;      
+    max-width: 800px;  
+    height: 450px; 
+    border-radius: 10px; 
+}
+
+.especificacion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 50px;
+    align-items: start;
+    margin: 50px auto; 
+    margin-top: 50px;
+    padding: 0; 
+    max-width: 1200px;
+}
+
+.miFooter {
+    background-color: #222;   /* fondo oscuro */
+    color: #eee;              /* texto claro */
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    gap: 40px;
+    align-items: start;
+}
+
+.footer-col h3 {
+
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(255, 230, 0);
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col a {
+    color: #69D4EE;   /* color del link */
+    text-decoration: none;
+}
+
+.footer-col a:hover {
+    text-decoration: underline;
+
+}
+
+.introHistoria{
+
+    margin: 50px auto;
+    text-align: center;
+}
+
+.bloqueHistoria1 {
+  display: flex;
+  gap: 20px; /* espacio entre columnas */
+  align-items: flex-start;
+}
+
+.historia1 img {
+  height: auto;
+}
+
+.historia1.texto {
+  max-width: 500px;
+}
+
+.bloqueHistoria2 {
+  display: flex;
+  justify-content: flex-end; /* empuja todo el contenido hacia la derecha */
+  gap: 20px;                 /* espacio entre imagen y texto */
+  align-items: flex-start;
+}
+
+.historia2 img {
+  height: auto;
+}
+
+.historia2.texto {
+  max-width: 500px;   /* limita el ancho del párrafo */
+  margin-left: 20px;  /* margen extra a la izquierda del texto */
+}
+
+body {
+  background-color: #c70b0b; /* color de fondo */
+}
+
+
