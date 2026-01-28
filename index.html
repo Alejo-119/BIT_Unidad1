@@ -144,6 +144,26 @@
         </iframe>
     </section>
 
+<!-- Formulario -->
+    <section class="container my-5">
+        <h2 class="mb-3">¿Te interesa esta motocicleta?</h2>
+
+        <div class="card p-3">
+            <input type="text" id="nameInput" class="form-control mb-2" placeholder="Nombre Completo">
+            <input type="tel" id="phoneInput" class="form-control mb-2" placeholder="Teléfono">
+            <textarea id="messageInput" class="form-control mb-3" placeholder="Mensaje (Opcional)"></textarea>
+
+            <button id="SendBtn" class="btn btn-primary">Enviar Interés</button>
+        </div>
+
+        <p id="successMsg" class="text-success mt-3 d-none">
+            Tu interés fue registrado correctamente.
+        </p>
+    </section>
+
+    <ul id="leadsList" class="list-group mt-4"></ul>
+
+
 
 
     <footer class="miFooter">
@@ -182,6 +202,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+<script src="./index.js"></script>
 
 </body>
 
